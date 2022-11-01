@@ -149,7 +149,10 @@ h1{
 .follow_me{
     padding: 18px 56px;
     border-radius: 35px;
-    background: linear-gradient(75deg, #1346ad, #549ce9);
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  
+    background: linear-gradient(to right, #8f94fb, #4e54c8);
+
     font-size: 1.2rem;
     font-family: "Nunito" , sans-serif;
     font-weight: bold;
@@ -157,7 +160,9 @@ h1{
 .send_message{
     padding: 18px 56px;
     border-radius: 35px;
-    background: linear-gradient(75deg, #1346ad, #549ce9);
+    background: #4e54c8; 
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8); 
+    background: linear-gradient(to right, #8f94fb, #4e54c8); 
     font-size: 1.2rem;
     font-family: "Nunito" , sans-serif;
     font-weight: bold;
