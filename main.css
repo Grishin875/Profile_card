@@ -192,7 +192,14 @@ h1{
         max-width: 340px;
     }
 }
-
+@media (max-width:350) {
+    .profile_card{
+        max-width: 290px;
+    }
+    .follow_me, .send_message{
+        padding: 10px 20px;
+    }
+}
 
 
 
