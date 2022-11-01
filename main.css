@@ -32,6 +32,12 @@
     a, a:visited{text-decoration: none;}
     ul li{list-style:none;}
     img{vertical-align: top;}
+    p{
+        color: black;
+    }
+    h1, h2 ,h3 ,h4, h5{
+        color: black;
+    }
     
     h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
     input[disabled], textarea[disabled],
