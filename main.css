@@ -169,6 +169,7 @@ h1{
     font-size: 1.2rem;
     font-family: "Nunito" , sans-serif;
     font-weight: bold;
+    color: #000;
 }
 .send_message{
     padding: 18px 56px;
@@ -180,6 +181,7 @@ h1{
     font-family: "Nunito" , sans-serif;
     font-weight: bold;
     -webkit-appearance: none;
+    color: #000;
 }
 .btn_block{
     display: flex;
