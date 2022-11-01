@@ -1,0 +1,198 @@
+/**CLEAR**/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+    *,*:before,*:after{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    :focus,:active{outline: none;}
+    a:focus,a:active{outline: none;}
+    
+    nav,footer,header,aside{display: block;}
+    
+    html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    input,button,textarea{font-family: inherit;}
+    
+    input::-ms-clear{display: none;}
+    button{cursor: pointer;}
+    button::-moz-focus-inner{padding: 0 ; border: 0;}
+    a, a:visited{text-decoration: none;}
+    ul li{list-style:none;}
+    img{vertical-align: top;}
+    
+    h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
+
+
+
+body{
+    background: linear-gradient(to right, #e55d87, #5fc3e4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_card{
+    box-shadow: 0 18px 700px 20px black;
+    border-radius: 50px;
+    width: 650px;
+    backdrop-filter: blur(15px);
+    border: 2px solid #ffffff20;
+    display: flex;
+    flex-direction: column;
+}
+.profile_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile_card_img{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.profile_card_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.located{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    padding-top: 0.5rem;
+}
+.devolp{
+    font-size: 1.2rem;
+    font-family: "Nunito", sans-serif;
+    padding-top: 0.5rem;
+}
+.fa-location-dot{
+    font-size: 1.2rem;
+}
+.located_header{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    padding-left: 0.5rem;
+}
+.my_works_followers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+.header_works_follower{
+    font-size: 1.7rem;
+    font-family: "Nunito" , sans-serif;
+    font-weight: 500;
+}
+.number{
+    font-size: 2rem;
+    font-family: "Nunito" , sans-serif;
+    font-weight: bold;
+    padding-bottom: 0.2rem;
+    padding-top: 1rem;
+}
+.youtube_followers , .telegram_followers , .works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social_network{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 3.5rem;
+}
+.icon_vk{
+    background: linear-gradient(75deg, #1769ff, #6e35d8);
+    border-radius: 10px;
+}
+.icon_telegram{
+    background: linear-gradient(75deg, #1346ad, #549ce9);
+    border-radius: 10px;
+}
+.icon_youtube{
+    background: linear-gradient(75deg, #f72804, #6d0542);
+    border-radius: 10px;
+}
+.icon_github{
+    background:linear-gradient(75deg, #333333, #626b73);
+    border-radius: 10px;
+}
+.icon:hover{
+    box-shadow: 0 4px 30px rgba(214, 219, 223, 0.781);
+}
+.follow_me{
+    padding: 18px 56px;
+    border-radius: 35px;
+    background: linear-gradient(75deg, #1346ad, #549ce9);
+    font-size: 1.2rem;
+    font-family: "Nunito" , sans-serif;
+    font-weight: bold;
+}
+.send_message{
+    padding: 18px 56px;
+    border-radius: 35px;
+    background: linear-gradient(75deg, #1346ad, #549ce9);
+    font-size: 1.2rem;
+    font-family: "Nunito" , sans-serif;
+    font-weight: bold;
+}
+.btn_block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.9rem;
+    margin-bottom: 1.3rem;
+}
+.send_message:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 30px rgba(214, 219, 223, 0.781);
+}
+.follow_me:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 30px rgba(214, 219, 223, 0.781);
+}
+@media (max-width:439px) {
+    .profile_card{
+        max-width: 400px;
+    }
+    .follow_me, .send_message{
+        padding: 15px 30px;
+    }
+    .social_network{
+        gap: 3rem;
+    }
+}
+@media (max-width:375px) {
+    .profile_card{
+        max-width: 340px;
+    }
+}
+
+
+
+
