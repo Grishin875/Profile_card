@@ -43,7 +43,6 @@
     input[disabled], textarea[disabled],
 select[disabled='disabled']{
    -webkit-text-fill-color: rgba(0, 0, 0, 1); 
-    -webkit-opacity: 1; 
    color: rgba(0, 0, 0, 1); 
    background: white;
     }
@@ -163,8 +162,6 @@ h1{
     padding: 18px 56px;
     border-radius: 35px;
     background: #4e54c8;  
-    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  
-    background: linear-gradient(to right, #8f94fb, #4e54c8);
     -webkit-appearance: none;
     font-size: 1.2rem;
     font-family: "Nunito" , sans-serif;
@@ -175,8 +172,6 @@ h1{
     padding: 18px 56px;
     border-radius: 35px;
     background: #4e54c8; 
-    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8); 
-    background: linear-gradient(to right, #8f94fb, #4e54c8); 
     font-size: 1.2rem;
     font-family: "Nunito" , sans-serif;
     font-weight: bold;
