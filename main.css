@@ -157,6 +157,7 @@ h1{
 }
 .icon:hover{
     box-shadow: 0 4px 30px rgba(214, 219, 223, 0.781);
+    transform: translateY(-5px);
 }
 .follow_me{
     padding: 18px 56px;
